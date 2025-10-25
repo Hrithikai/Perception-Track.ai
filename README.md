@@ -41,16 +41,18 @@ Install dependencies:
     mkdir -p models dataset face_encodings pose_analysis_output/alerts
     mkdir -p up_optimized_m/vehicles up_optimized_m/persons up_optimized_m/best_faces
 
-Folder Structure Example:
-    perception-track-ai/
-    ├── Pose with Notification Alert.py
-    ├── Vehical and human pipeline.py
-    ├── requirements.txt
-    ├── models/
-    ├── dataset/
-    ├── face_encodings/
-    ├── pose_analysis_output/
-    └── up_optimized_m/
+### 3️⃣ Folder Structure
+```
+perception-track-ai/
+├── Pose with Notification Alert.py
+├── Vehical and human pipeline.py
+├── requirements.txt
+├── models/                    # YOLO models (auto-downloaded)
+├── dataset/                   # Place your videos here
+├── face_encodings/            # Face recognition data
+├── pose_analysis_output/      # Pose detection results
+└── up_optimized_m/            # Vehicle/human output data
+```
 
 ------------------------------------------------------------
 
