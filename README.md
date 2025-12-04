@@ -4,6 +4,8 @@ AI-powered perception system using YOLOv8 for real-time pose and vehicle detecti
 Maybe the file may seem a bit to long but if u Read every line and understand then it will be way easier to work with.
 Try to do some changes and with improvisation of exsiting code.
 
+
+## THIS SINGLE PROJECT CAN BE USED AS MULTIPLE PROJECT ( SEPERATE THE SECTIONS )
 Overview:
 Two AI-powered detection systems using YOLOv8:
 
@@ -140,6 +142,29 @@ python "Vehical and human pipeline.py"
 - Saves best-quality frames and logs
 
 **Outputs:**
+- Vehicles: `up_optimized_m/vehicles/`  
+- Persons: `up_optimized_m/persons/`  
+- Logs: `up_optimized_m/*.csv`
+
+
+
+### 🧍 Main.py where u find all features in one
+```bash
+python "Main.py"
+```
+**Functions:**
+- Real-time pose classification: Standing / Sitting / Lying  
+- Triggers alerts after 10s, 25s, and 40s of lying down  
+- Alerts via **Email & Telegram**  
+- Press `q` to exit or `p` to pause
+- Tracks vehicles by type (car, bus, truck, motorcycle)  
+- Detects vehicle color  
+- Tracks humans with unique IDs  
+- Saves best-quality frames and logs
+
+**Outputs:**
+- CSV: `pose_analysis_output/pose_analysis.csv`  
+- Alerts: `pose_analysis_output/alerts/`
 - Vehicles: `up_optimized_m/vehicles/`  
 - Persons: `up_optimized_m/persons/`  
 - Logs: `up_optimized_m/*.csv`
