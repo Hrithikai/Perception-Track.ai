@@ -18,7 +18,7 @@ Two AI-powered detection systems using YOLOv8:
 |------------|--------------|
 | **Python** | 3.10.3 (Mandatory) |
 | **RAM** | Minimum 8GB (16GB to 24GB RAM recommended)|
-| **GPU** | Minimum 4GB VRAM Card (6GB or more recommended) required for real-time processing ,integrated gpu may not handle the load !!@!! |
+| **GPU** | Minimum 4GB VRAM Card Dedicated GPU (6GB or more recommended) required for real-time processing ,integrated gpu may not handle the load !!@!! |
 | **CPU** | Minimum 4 cores and 8 threads(recommended 8 cores and 16 threads) |
 | **Storage** | Minimum 6GB to 8GB free space |
 
