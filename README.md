@@ -7,10 +7,11 @@ Try to do some changes and with improvisation of exsiting code.
 
 ## THIS SINGLE PROJECT CAN BE USED AS MULTIPLE PROJECTS ( SEPERATE THE SECTIONS )
 Overview:
-Two AI-powered detection systems using YOLOv8:
+AI-powered detection systems using YOLOv8:
 
 1. Pose Detection - Detects lying down poses and sends alerts via Email and Telegram after 10s, 25s, 40s.
-2. Vehicle and Human Recognition - Tracks vehicles (with color/type) and recognizes faces.
+2. Vehicle Detection - Tracks vehicles, Number plate, its Color and Type of the Vehicle.   
+3. Human Recognition - Tracks and recognizes person with faces.
 
 ## 💻 System Requirements
 
