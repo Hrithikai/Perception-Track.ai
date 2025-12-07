@@ -39,22 +39,19 @@ YOLO_IMG_SIZE = 640
 # =========================
 # NOTIFICATION CREDENTIALS
 # =========================
-BOT_TOKEN = "8331904126:AAGjeeo7hWO-CHAsYAhQ7ZctRSNqpUwBAo4"
-CHAT_ID = "1490935977"
+BOT_TOKEN = ""
+CHAT_ID = ""
 BASE_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 SENDER_ACCOUNTS = [
     {
-        "email": "boostup1947@gmail.com",
-        "password": "bkcl hcuv gcjf gslz"
+        "email": "",
+        "password": ""
     }
 ]
 
 RECEIVER_EMAILS = [
-    "hrithiksai007@gmail.com",
-    "hrithiksai.n2021@vitstudent.ac.in",
-    "sweta.b@vit.ac.in",
-    "senthilkumar.t@vit.ac.in"
+    ""
 ]
 
 # =========================
@@ -1241,4 +1238,5 @@ This is a test notification."""
 
 if __name__ == "__main__":
     main()
+
     
