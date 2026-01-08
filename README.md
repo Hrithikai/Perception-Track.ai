@@ -5,7 +5,7 @@ Maybe the file may seem a bit to long but if u Read every line and understand th
 Try to do some changes and with improvisation of exsiting code.
 
 
-## THIS SINGLE PROJECT CAN BE USED AS MULTIPLE PROJECTS ( SEPERATE THE SECTIONS )
+## THIS SINGLE PROJECT CAN  ALSO BE USED AS MULTIPLE PROJECTS ( SEPERATE THE SECTIONS )
 Overview:
 AI-powered detection systems using YOLOv8:
 
